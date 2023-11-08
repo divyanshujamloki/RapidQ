@@ -4,8 +4,8 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
   navbar: {
-    backgroundColor: "#2196F3", 
-    padding: "10px 0", 
+    backgroundColor: "#621c1c",
+    padding: "10px 0",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
     textDecoration: "none",
     transition: "color 0.3s ease",
-    margin:10,
+    margin: 10,
     "&:hover": {
       color: "#FFC107", // Hover color
     },
@@ -44,7 +44,7 @@ export default function Nav() {
       </Link>
       <ul className={classes.navItems}>
         <li>
-          <Link to="/home" className={classes.link}>
+          <Link to="/" className={classes.link}>
             Home
           </Link>
         </li>

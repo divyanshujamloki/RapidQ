@@ -21,7 +21,7 @@ function App() {
           <Route path="/close" element={<Close />} />
           <Route path="/drag" element={<Drag />} />
           <Route path="/comph" element={<Comph />} />
-          <Route path="/home" element={<Home/>} />\
+          <Route path="/" element={<Home/>} />\
         </Routes>
       </div>
     </>

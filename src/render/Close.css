@@ -1,0 +1,81 @@
+/* ListSort.css */
+
+.app {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[name="fruitName"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.list-sort {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  cursor: grab;
+  transition: transform 0.2s;
+}
+
+.list-item:hover {
+  transform: scale(1.05);
+}
+
+.list-item i {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #007bff;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0;
+  flex: 1;
+}
+
+.btn-save-order {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}

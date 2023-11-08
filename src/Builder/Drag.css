@@ -1,0 +1,27 @@
+/* DragAndDrop.css */
+.draggable-item {
+  cursor: move;
+  padding: 8px;
+  background-color: #3498db;
+  color: white;
+  border: 1px solid #3498db;
+  margin: 8px;
+  display: inline-block;
+}
+
+.droppable-container {
+  min-height: 300px;
+  min-width: 300px;
+  border: 1px solid #333;
+  padding: 16px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.droppable-text {
+  margin: 8px 0;
+  font-weight: bold;
+}

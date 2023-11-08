@@ -17,7 +17,7 @@ export default function Comps() {
 
   return (
     <div className="mcq-container">
-      <h3>Comprehension</h3>
+      <h1>Comprehension</h1>
       <textarea
         className="text-area"
         placeholder="Enter comprehension text here"

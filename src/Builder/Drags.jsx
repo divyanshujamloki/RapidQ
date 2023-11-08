@@ -17,7 +17,7 @@ const Drags = () => {
 
   return (
     <div className="app">
-      <h2>Drag and Drop</h2>
+      <h2>Drag and Drop </h2>
 
       <div className="list-container">
         <div className="draggable-list">

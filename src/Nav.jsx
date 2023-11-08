@@ -40,9 +40,15 @@ export default function Nav() {
   return (
     <nav className={classes.navbar} style={{ margin: "10" }}>
       <Link to="/" className={classes.logo} style={{ margin: "10px" }}>
-        Questions
+        RapidQ
       </Link>
       <ul className={classes.navItems}>
+        <li>
+          <Link to="/home" className={classes.link}>
+            Home
+          </Link>
+        </li>
+
         <li>
           <Link to="/close" className={classes.link} style={{ margin: "10" }}>
             Close
@@ -56,11 +62,6 @@ export default function Nav() {
         <li>
           <Link to="/drag" className={classes.link}>
             Drag & Drop
-          </Link>
-        </li>
-        <li>
-          <Link to="/home" className={classes.link}>
-            Home
           </Link>
         </li>
       </ul>

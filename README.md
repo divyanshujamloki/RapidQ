@@ -1,3 +1,21 @@
+![image](https://github.com/divyanshujamloki/RapidQ/assets/77928275/7242fa8c-4254-43a0-95fb-e3443278c4ae)
+
+
+
+
+![image](https://github.com/divyanshujamloki/RapidQ/assets/77928275/b8ad0bb4-a0db-4d6f-bfc1-f28f7edcce7d)
+
+
+here the highlighted text will be added only (mouseclick)
+![image](https://github.com/divyanshujamloki/RapidQ/assets/77928275/8e2b2a31-3258-49c6-aa98-48a3a9e0e201)
+here the highlighted text will be added only (mouseclick)
+
+
+![image](https://github.com/divyanshujamloki/RapidQ/assets/77928275/8dd44b42-4044-4cb2-b4d4-f36441f8aa33)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
